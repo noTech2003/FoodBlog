@@ -13,6 +13,7 @@ export const Navbar = () => {
   };
   return (
     <div className="navbar">
+    <Link class="navbar-brand" to="/">FoodBlog</Link> 
       <Link to="/">Home</Link>
       <Link to="/create-recipe">Create Recipe</Link>
       <Link to="/saved-recipes">Saved Recipes</Link>
